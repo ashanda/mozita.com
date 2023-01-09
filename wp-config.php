@@ -26,10 +26,10 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'mozitaco_mozita' );
+define( 'DB_NAME', 'mozitac1_main' );
 
 /** Database username */
-define( 'DB_USER', 'mozitaco_mozita' );
+define( 'DB_USER', 'mozitac1_main' );
 
 /** Database password */
 define( 'DB_PASSWORD', 'k;qob?(LxzQM' );
