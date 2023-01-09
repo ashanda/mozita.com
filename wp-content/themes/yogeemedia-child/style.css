@@ -1,0 +1,239 @@
+/*
+Theme Name: Yogeemedia Child
+Author: 
+Description: Your description goes here
+Version: 1.0
+Template: yogeemedia
+
+This is the child theme for Yogeemedia theme, generated with Generate Child Theme plugin by catchthemes.
+
+(optional values you can add: Theme URI, Author URI, License, License URI, Tags, Text Domain)
+*/
+
+.kslider--title,
+.kservice-text-subtitle,
+.kservice-text-title,
+.kslider--subtitle,
+.section-subtitle{
+	color: #242629;
+}
+
+.border-btn {
+    border: 1px solid #3099c4;
+}
+.kquality-icon,
+.kproject-text{
+    background: #3099c4;
+}
+
+.transparent-header {
+    background-color: rgb(255,255,255,0.5);
+}
+.kservice-text p {
+	color: #000000;
+	text-align:justify;
+}
+.home .service-area .container{ 
+	background-color: #fff;
+    padding: 22px;
+    opacity: .8;
+}
+
+.kabout-img-shape {
+	border: 8px solid #3099c4;
+}
+
+/*kasun 2022.3.18*/
+.kslider--subtitle:before, .kservice-text-subtitle:before, .kservice.text-center.mb-20:hover, .kabout-service-title:before, .kblog-img span, .kquality-img:before, .widget ul li a:before{
+	background-color:#3099c4;
+}
+.kservice-icon i, .kabout-img-small-icon span i, .kabout ul li i{
+color:#3099c4;
+}
+
+.main-menu a.nav-link:hover{
+	color:#3099C4 !important;
+}
+
+/* hide sections */
+.team-area{
+	display:none !important;
+}
+section.testimonial-area.pt-115.pb-85{
+	display:none;
+}
+a:hover{
+	color:#3099C4 !important;
+}
+selection {
+background-color: #3099C4 !important;
+}
+::selection {
+background-color: #3099C4 !important;
+}[/ht_message]
+
+
+
+/*edited by ranga*/
+
+.header-logo img, .footer-logo img{
+	max-width:80%;
+}
+.main-menu ul li a{
+	color:#000 !important;
+}
+.header-social a{
+	color:#000 !important;
+}
+.transparent-header.sticky-header{
+	background-color:#fff;
+}
+.side-menu-icon i {
+    color: #000;
+	font-size:20px;
+}
+.kservice-icon i{
+	font-size:60px;
+}
+.home .project-area {
+	display:none;
+}
+.home .brand-area {
+	display:none;
+}
+.kabout .section-title-wrapper p{
+	text-align:justify;
+}
+footer .widget p{
+	text-align:justify;
+}
+/*--
+.kabout-img-small-icon span i{
+	margin-top: 25px !important;
+--*/
+.kslider--title, .kslider--subtitle{
+	color:#ffffff !important;
+}
+.kslider--title, .kslider--subtitle{
+	color:#ffffff !important;
+}
+.kslider--title .banner-title, .kslider--subtitle .banner-title{
+	color:#000000 !important;
+}
+@media (max-width:450px){
+	.kslider--title{
+		font-size: 28px !important;
+		letter-spacing:0px;
+	}
+	.kslider .theme-btn{
+		height:50px !important;
+		line-height:50px !important;
+		padding:0px 10px !important;
+	}
+	.header-logo img, .footer-logo img {
+		max-width: 80% !important;
+	}
+}
+@media (max-width:1200px){
+	.header-logo img {
+		max-width: 25%;
+	}
+}
+.kslider .kslider--title{
+        font-size: 120px;
+    line-height: 1;
+}
+
+.kservice-text-subtitle:before, .section-subtitle:before, .section-subtitle:before{
+	bottom:-5px;
+}
+.menu-main-menu{
+	padding-left:100px !important;
+}
+.kfact .kfact-icon i{
+	color:#fff !important;
+}
+.brand-area {
+	display:none;
+}
+.contact-list{
+	display:none;
+}
+.contact-form{
+	font-size:14px;
+}
+.contact-form select {
+    width: 100%;
+    padding: 25px;
+    color: #777a7e;
+    border: none;
+    background: #f2f3f5;
+    font-size: 14px;
+    border: 1px solid transparent;
+    -webkit-transition: all 0.3s linear 0s;
+    -moz-transition: all 0.3s linear 0s;
+    -o-transition: all 0.3s linear 0s;
+    transition: all 0.3s linear 0s;
+}
+.contact-form select option{
+	padding-top:10px;
+}
+.kintro-img .mission-img-text{
+	background:rgb(255,255,255,0.8) !important;
+}
+
+
+
+.time{
+	font-size: 18px;
+    height: 50px !important;
+    line-height: 50px !important;
+	display:inline-block !important;
+	position:relative;
+	background-color: transparent;
+	padding:3px 5px 5px 5px;
+	min-width:95px;
+	text-align: center;
+    color: #000;
+    font-weight: 700;
+	float:left;
+}
+
+@media (min-width: 1700px){
+	.time {
+    	margin-right: 65px;
+	}
+}
+
+.home .service-area{
+	display:none;
+}
+
+.kservice .kservice-icon {
+    padding-bottom: 10px !important;
+}
+.blog-area{
+	display:none;
+}
+.kservice {
+	height: 350px !important;
+}
+.service-list i{
+	display:none;
+}
+.service-list li{
+	text-align:center;
+}
+
+.list-area .card{
+	height:600px;
+}
+.list-area .card-1{
+	height:400px !important;	
+}
+.kservice-img-2 {
+    height: 300px !important;
+}
+.kservice_serv{
+	height: 200px !important;
+}
